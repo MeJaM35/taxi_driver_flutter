@@ -192,7 +192,7 @@ class _DriverEditProfileViewState extends State<DriverEditProfileView> {
                         SizedBox(
                           width: 30,
                           height: 20,
-                          child: countryCode.flagImage(),
+                          child: countryCode.flagImage,
                         ),
                         Text(
                           "  ${countryCode.dialCode}",
